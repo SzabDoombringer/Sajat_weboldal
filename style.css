@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background: #1a1a1a;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+header {
+  background: #2b2b2b;
+  color: crimson;
+  text-align: center;
+  padding: 1.5rem;
+  border-bottom: 3px solid crimson;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #111;
+  border-bottom: 2px solid crimson;
+}
+
+nav a {
+  color: #ddd;
+  padding: 1rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: crimson;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid crimson;
+  color: #777;
+}
+
+/* Lore Page with Galaxy Background */
+body.lore {
+  background: url("galaxy_background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Pantheon List */
+.pantheon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pantheon-list li {
+  background: #222;
+  border-left: 4px solid crimson;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+aside img {
+  width: 350px;    /* medium size, not too small */
+  max-width: 90%;  /* still shrinks if screen is narrow */
+  height: auto;    /* keeps aspect ratio */
+  display: block;
+  margin: 0 auto 1rem auto; /* centers and adds spacing */
+  border-radius: 10px;      /* soft corners (optional) */
+  box-shadow: 0 0 15px rgba(220, 20, 60, 0.4); /* crimson glow for style */
+}
